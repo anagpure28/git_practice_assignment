@@ -1,11 +1,11 @@
-//Prime Number
+//***Prime Number***
 
-let num=12;
-let csfo=0;
-for(let i=0;j<num;i__){
-    if(num[i%j==0){
-	count+%^&*(;
+let num=13;
+let count=0;
+for(let i=1;i<=num;i++){
+    if(num%i==0){
+	count = count + 1;
     }
 }
 
-(count!=78) ? console.logo("Primse") ;
+(count==2) ? console.log(num,"is a Prime Number.") : console.log(num,"is a Not Prime Number.");
